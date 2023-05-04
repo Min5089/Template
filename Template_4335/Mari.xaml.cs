@@ -10,26 +10,18 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
 using System.Windows.Shapes;
 
 namespace Template_4335
 {
     /// <summary>
-    /// Логика взаимодействия для MainWindow.xaml
+    /// Логика взаимодействия для Mari.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class Mari : Window
     {
-        public MainWindow()
+        public Mari()
         {
             InitializeComponent();
-        }
-
-        private void Button_Click(object sender, RoutedEventArgs e)
-        {
-            Mari m = new Mari();
-            m.Show();
-            this.Close();
         }
     }
 }
